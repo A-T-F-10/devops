@@ -240,8 +240,8 @@ export default function Platform() {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { icon: <HiAcademicCap className="text-2xl" />, title: '160+ Interactive Lessons', desc: 'Structured curriculum from Linux basics to advanced Kubernetes, with real commands and examples.', color: 'from-indigo-500/20 to-violet-500/20' },
-              { icon: <HiMap className="text-2xl" />, title: '12-Phase Roadmap', desc: 'A clear learning path: Linux → Networking → Git → Docker → CI/CD → Cloud → IaC → K8s → Monitoring → Security.', color: 'from-emerald-500/20 to-teal-500/20' },
+              { icon: <HiAcademicCap className="text-2xl" />, title: '160+ Interactive Lessons', desc: 'Structured curriculum from Linux basics to Kubernetes and backend engineering, with real commands and examples.', color: 'from-indigo-500/20 to-violet-500/20' },
+              { icon: <HiMap className="text-2xl" />, title: '13-Phase Roadmap', desc: 'A clear learning path: Linux → Networking → Git → Docker → CI/CD → Cloud → IaC → K8s → Monitoring → Security → Backend.', color: 'from-emerald-500/20 to-teal-500/20' },
               { icon: <HiLightningBolt className="text-2xl" />, title: 'Hands-On Challenges', desc: 'Real-world projects with step-by-step guidance, explanations, hints, and graded quizzes.', color: 'from-amber-500/20 to-orange-500/20' },
               { icon: <HiShieldCheck className="text-2xl" />, title: 'Quizzes & Assessments', desc: 'Test your knowledge after every lesson. Track scores and retake quizzes to improve.', color: 'from-rose-500/20 to-pink-500/20' },
               { icon: <HiGlobe className="text-2xl" />, title: '12 Languages', desc: 'Learn in English, Arabic, Spanish, French, German, Portuguese, Chinese, Hindi, Turkish, Russian, Japanese, or Korean.', color: 'from-cyan-500/20 to-blue-500/20' },
@@ -262,7 +262,7 @@ export default function Platform() {
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 { value: '160+', label: 'Lessons', icon: <HiBookOpen className="text-lg text-indigo-400" /> },
-                { value: '12', label: 'Phases', icon: <HiMap className="text-lg text-emerald-400" /> },
+                { value: '13', label: 'Phases', icon: <HiMap className="text-lg text-emerald-400" /> },
                 { value: '25+', label: 'Challenges', icon: <HiLightningBolt className="text-lg text-amber-400" /> },
                 { value: '12', label: 'Languages', icon: <HiGlobe className="text-lg text-cyan-400" /> },
               ].map((s, i) => (
